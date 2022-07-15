@@ -1,0 +1,34 @@
+body{
+    background-image: linear-gradient(#a705f7,#f7053d,#f7aea1,#a1f7ef,#b1e3b8,#fcf0a9);
+}
+h1{
+
+    color: #8405fa;
+    background-color: #b1e3b8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#show_sketch{
+
+    float: right;
+
+}
+canvas{
+
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example{
+
+    from{box-shadow: 1px 1px 38px gray;}
+    to{box-shadow: 1px 1px 38px white;}
+}
+p{
+
+  padding-top: 10px;
+  font-size: 25px;
+}
